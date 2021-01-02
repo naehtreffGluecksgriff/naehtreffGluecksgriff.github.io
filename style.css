@@ -25,22 +25,28 @@ body {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 5rem;
-	width: 14vw;
+	padding-top: 4rem;
+	width: 12vw;
 }
 
 .logoText {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: -2rem;
-	width: 32vw;
+	margin-top: 0;
+	width: 20vw;
+}
+
+.subText {
+	margin-top: 2rem;
+	text-align: center;
+	font-size: 1.5vw;
 }
 
 .info {
-	margin-top: 4rem;
+	margin-top: 1.5rem;
 	text-align: center;
-	font-size: 1.5vw;
+	font-size: 1.0vw;
 }
 
 .containerBG {
@@ -80,12 +86,12 @@ body {
 	display: flex;
 	align-content: center;
 	font-size: 1vw;
-	gap: 1rem;
 }
 
 .icon {
 	width: 1.5vw;
 	height: 1.5vw;
+	padding-right: 1rem;
 }
 
 .gridWall {
@@ -141,13 +147,18 @@ body {
 		width: 62vw;
 	}
 
-	.info {
+	.subText {
 		font-size: 3.5vw;
+		margin-top: 0.8rem;
+	}
+
+	.info {
+		font-size: 2.5vw;
 		margin-top: 1rem;
 	}
 
 	.containerBG {
-		padding-top: 65vh;
+		padding-top: 70vh;
 	}
 
 	.footer {
@@ -159,12 +170,12 @@ body {
 
 	.footerElement {
 		font-size: 3.5vw;
-		gap: 0.5rem;
 	}
 	
 	.icon {
 		width: 4vw;
 		height: 4vw;
+		padding-right: 0.5rem;
 	}
 	
 }
