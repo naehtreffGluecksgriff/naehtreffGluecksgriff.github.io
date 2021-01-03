@@ -54,7 +54,7 @@ body {
 	width: 100%;
 	height: auto;
 	padding-top: 80vh;
-	padding-bottom: 12rem;
+	padding-bottom: 5%;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -71,6 +71,7 @@ body {
 
 .impressumLink {
 	padding-top: 4rem; 
+	padding-bottom: 4rem;
 	text-align: center;
 	background-color: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(10px) saturate(160%) contrast(45%) brightness(140%);
