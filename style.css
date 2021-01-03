@@ -162,6 +162,19 @@ body {
 		padding-top: 70vh;
 	}
 
+	.gridWall {
+		grid-template-columns: 100%;
+		grid-auto-rows: 300px;
+		padding: 1rem;
+		grid-gap: 1rem;
+	}
+
+	.gallery__item.landscape {
+		grid-column: span 1;
+	}
+
+
+
 	.footer {
 		padding: 1rem;
 		flex-wrap: wrap;
