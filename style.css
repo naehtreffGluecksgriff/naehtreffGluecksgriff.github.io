@@ -168,21 +168,22 @@ body {
 
 @media (orientation: portrait) {
   .logo {
-		width: 34vw;
+		width: 32vw;
+		padding-top: 2rem;
 	}
 	
 	.logoText {
 		margin-top: 0;
-		width: 62vw;
+		width: 60vw;
 	}
 
 	.subText {
-		font-size: 3.5vw;
+		font-size: 4.5vw;
 		margin-top: 0.8rem;
 	}
 
 	.info {
-		font-size: 2.8vw;
+		font-size: 3.5vw;
 		margin-top: 1rem;
 	}
 
